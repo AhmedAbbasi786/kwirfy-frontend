@@ -1,0 +1,15 @@
+.white-navbar{
+    height: 78px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.white-navbar .left-side{
+    display: flex;
+    gap: 10px;
+}
+
+.white-navbar .right-side{
+    display: flex;
+    gap: 10px;
+}

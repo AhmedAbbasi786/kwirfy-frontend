@@ -1,0 +1,6 @@
+.container {
+  width: 1335px !important;
+  max-width: 100%; /* Ensures responsiveness on smaller screens */
+  margin: 0 auto; /* Centers the container */
+  padding: 0 15px; /* Adds some padding on the sides */
+}

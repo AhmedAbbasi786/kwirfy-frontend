@@ -1,0 +1,34 @@
+*{
+  word-wrap: break-word !important;
+}
+a:focus, button:focus, div:focus{
+	-webkit-highlight: none !important;
+  -webkit-tap-highlight-color: transparent !important; 
+	box-shadow: none !important;
+	outline: 0px !important; 
+}
+.div-float{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.div-flex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+} 
+%bg-img{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+%overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}  

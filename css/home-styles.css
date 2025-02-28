@@ -1,0 +1,77 @@
+.signup{
+    margin: 0 15px;
+    background-image: url("../images/Blog.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 560px;
+}
+.signup .cta-section .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.signup .cta-section .img-section-wrapper{
+    width: 720px;
+    height: 560px;
+}
+
+.signup .cta-section .img-section-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testemonial-card{
+    border: 1px solid#E6E6E6;
+    position: relative;
+    padding: 20px;
+}
+.verified-customer-badge{
+    padding: 5px;
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    background-color: white;
+    border: 1px solid#E6E6E6;
+    border-radius: 30px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #111111;    
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #111111; /* Black stars by default */
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
