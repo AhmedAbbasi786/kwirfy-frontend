@@ -1,3 +1,46 @@
+.start-shopping {
+    margin: 0 15px;
+    background-image: url("../images/banner-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+
+.content-box {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
 .signup{
     margin: 0 15px;
     background-image: url("../images/Blog.png");
