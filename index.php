@@ -4,6 +4,7 @@
 <head>
     <?php include('includes/css.php') ?>
     <title>Home</title>
+
 </head>
 
 <body>
@@ -15,7 +16,36 @@
     </div>
     <div class="clearfix"></div>
 
+    <section class="shop-by-category">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="mb-4">
+                <h2 class="section-title">SHOP BY CATEGORY</h2>
+                <p class="section-subtitle">Explore our curated categories and find the perfect pieces for any occasion.</p>
+            </div>
 
+            <div class="row">
+                <!-- Category 1: Dresses -->
+                <div class="col-md-6">
+                    <div class="category-card" style="background-image: url('./images/dresses-bg.png');">
+                        <div class="category-content">
+                            <h3>DRESSES</h3>
+                            <p>The perfect finishing touch.</p>
+                            <a href="#" class="category-link">
+                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5376 21.3774L22.4624 12.6225" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M12.6226 11.5375L22.4624 12.6224L21.3775 22.4623" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+             
+            </div>
+        </div>
+    </section>
 
     <section>
         <div class="start-shopping my-4">
@@ -240,6 +270,8 @@
 
 
     <?php include('includes/js.php') ?>
+    <!-- jQuery -->
+
 
 
 </body>
