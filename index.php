@@ -8,6 +8,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 
+
+
+    <style>
+        .carousel-item {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .carousel-caption {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            text-align: left;
+            color: white;
+        }
+        .carousel-caption h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .carousel-caption p {
+            font-size: 1.2rem;
+        }
+        .btn-custom {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn-custom:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,7 +54,47 @@
 
     </div>
     <div class="clearfix"></div>
+    <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
     
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('./images/header-banner.png');">
+            <div class="carousel-caption">
+                <h1>DISCOVER PREMIUM KOREAN INSPIRED FASHION</h1>
+                <p>Elevate your style with Kwify—a curated collection of the finest trends from Korea, tailored for the North American market.</p>
+                <a href="#" class="btn-custom">SHOP NOW</a>
+                <a href="#" class="btn-custom ms-2">EXPLORE COLLECTIONS</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('./images/header-banner.png');">
+            <div class="carousel-caption">
+                <h1>EXPLORE NEW ARRIVALS</h1>
+                <p>Fresh styles and modern aesthetics straight from Korea.</p>
+                <a href="#" class="btn-custom">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('./images/header-banner.png');">
+            <div class="carousel-caption">
+                <h1>STYLE THAT STANDS OUT</h1>
+                <p>Discover the latest fashion trends tailored just for you.</p>
+                <a href="#" class="btn-custom">EXPLORE NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+    </section>
     <section class="shop-by-category">
         <div class="container">
             <!-- Section Title -->
